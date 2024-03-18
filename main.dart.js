@@ -85920,7 +85920,7 @@ var $async$um=A.Q(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 l=t.z
 s=7
-return A.X(n.a.Im("http://localhost:3000/signin",A.aD(["email",a,"password",b],t.N,l),A.aax("application/x-www-form-urlencoded"),l),$async$um)
+return A.X(n.a.Im("https://server.edastra.in/signin",A.aD(["email",a,"password",b],t.N,l),A.aax("application/x-www-form-urlencoded"),l),$async$um)
 case 7:l=d
 q=l
 s=1
@@ -85951,7 +85951,7 @@ n=n.b
 n===$&&A.a()
 n.m(0,"Authorization","Bearer "+A.i(a))
 s=3
-return A.X(o.AU(0,"http://localhost:3000/validatetoken",t.z),$async$v6)
+return A.X(o.AU(0,"https://server.edastra.in/validatetoken",t.z),$async$v6)
 case 3:q=c
 s=1
 break
@@ -85966,7 +85966,7 @@ n=n.b
 n===$&&A.a()
 n.m(0,"Authorization","Bearer "+A.i(a))
 s=3
-return A.X(o.AU(0,"http://localhost:3000/getinfo",t.z),$async$ve)
+return A.X(o.AU(0,"https://server.edastra.in/getinfo",t.z),$async$ve)
 case 3:q=c
 s=1
 break
@@ -85984,7 +85984,7 @@ k===$&&A.a()
 k.m(0,"Authorization","Bearer "+A.i(b))
 k=t.z
 s=7
-return A.X(l.Im("http://localhost:3000/resetpassword",A.aD(["p",a],t.N,k),A.aax("application/x-www-form-urlencoded"),k),$async$uR)
+return A.X(l.Im("https://server.edastra.in/resetpassword",A.aD(["p",a],t.N,k),A.aax("application/x-www-form-urlencoded"),k),$async$uR)
 case 7:k=d
 q=k
 s=1
@@ -86012,7 +86012,7 @@ var $async$tV=A.Q(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
 l=t.z
 s=7
-return A.X(n.a.Im("http://localhost:3000/forgotpassword",A.aD(["email",a,"dob",b,"code",c],t.N,l),A.aax("application/x-www-form-urlencoded"),l),$async$tV)
+return A.X(n.a.Im("https://server.edastra.in/forgotpassword",A.aD(["email",a,"dob",b,"code",c],t.N,l),A.aax("application/x-www-form-urlencoded"),l),$async$tV)
 case 7:l=e
 q=l
 s=1
@@ -86043,7 +86043,7 @@ n=n.b
 n===$&&A.a()
 n.m(0,"Authorization","Bearer "+A.i(a))
 s=3
-return A.X(o.AU(0,"http://localhost:3000/verifypassword",t.z),$async$AP)
+return A.X(o.AU(0,"https://server.edastra.in/verifypassword",t.z),$async$AP)
 case 3:q=c
 s=1
 break
