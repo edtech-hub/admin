@@ -1,11 +1,11 @@
 {
-    "name": "master_admin",
-    "short_name": "master_admin",
+    "name": "Ed-Astra Master Admin",
+    "short_name": "Ed-Astra Admin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "The admin console to manage Ed-Astra Product Suite",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
